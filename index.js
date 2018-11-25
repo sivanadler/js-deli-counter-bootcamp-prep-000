@@ -10,6 +10,7 @@ function takeANumber(line, name){
 
 function nowServing(line) {
   if (!line.length) {
+    console.log("There is nobody waiting to be served!")
     return "There is nobody waiting to be served!"
   }
 
